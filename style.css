@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik:wght@500&display=swap');
+
+body {
+  background-color: #D0CEBA;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+h1, h2, h3 {
+  color: #417B5A;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+a {
+  text-decoration: none;
+  background-color: #4B3F72;
+  color: #D0CEBA;
+  font-weight: 400;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+  border: 1px solid transparent;
+  box-shadow: 1px 1px 1px #4B3F72;
+  animation-delay: 0.3s;
+}
+
+a:hover {
+  background-color: #D0CEBA;
+  color: #4B3F72;
+  border: 1px solid #4B3F72
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 500px;
+  margin: 10px auto;
+}
+
+.card {
+  text-align: center;
+  background-color: #E9D2C0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #417B5A;
+}
+
+.btn-green {
+  padding-bottom: 7px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 2px 2px 6px #417B5A
+}
+
+.img-circle:hover {
+  width: 400px;
+  height: 400px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline > li > a{
+  padding: 4px 4px;
+}
